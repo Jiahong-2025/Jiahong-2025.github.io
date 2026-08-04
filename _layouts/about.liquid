@@ -6,10 +6,17 @@ layout: default
     <h1 class="post-title">
       {% if site.title == 'blank' %}
         <span class="font-weight-bold">{{ site.first_name }}{{ site.middle_name }}
-        {{ site.last_name }}</span> 
+        {{ site.last_name }}</span>
       {% else %}
         {{ site.title }}
       {% endif %}
+      <a
+        href="{{ '/assets/pdf/Jiahong_Li_CV.pdf' | relative_url }}"
+        class="home-cv-link"
+        aria-label="View CV"
+      >
+        CV
+      </a>
     </h1>
     <p class="desc">{{ page.subtitle }}</p>
   </header>
