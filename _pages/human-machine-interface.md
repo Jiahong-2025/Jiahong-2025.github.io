@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Human-machine Interface
+title: Wearable Intelligence
 permalink: /human-machine-interface/
-description: Abstract for the Human-machine Interface research article.
+description: Research on wearable intelligence and human-machine interfaces.
 nav: false
 ---
 
