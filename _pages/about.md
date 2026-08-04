@@ -101,7 +101,7 @@ My work integrates stretchable materials, electrochemical sensing, wireless elec
     ">
 
       <!-- Card 1 -->
-      <div style="
+      <a href="/implantable-bioelectronics/" class="research-card" style="
         background:white;
         border-radius:6px;
         overflow:hidden;
@@ -110,15 +110,13 @@ My work integrates stretchable materials, electrochemical sensing, wireless elec
         flex-direction:column;
       ">
 
-        <a href="/implantable-bioelectronics/" style="display:block;">
-          <img src="/assets/img/implantable_bioelectronics.png?v=2" style="
-            width:100%;
-            height:260px;
-            object-fit:cover;
-            object-position:center;
-            display:block;
-          ">
-        </a>
+        <img src="/assets/img/implantable_bioelectronics.png?v=2" style="
+          width:100%;
+          height:260px;
+          object-fit:cover;
+          object-position:center;
+          display:block;
+        ">
 
         <div style="padding:30px; flex:1; display:flex; flex-direction:column;">
 
@@ -128,9 +126,9 @@ My work integrates stretchable materials, electrochemical sensing, wireless elec
             line-height:1.15;
             margin-bottom:18px;
           ">
-            <a href="/implantable-bioelectronics/" class="research-card-title">
+            <span class="research-card-title">
               Implantable Bioelectronics
-            </a>
+            </span>
           </h2>
 
           <p style="
@@ -143,15 +141,15 @@ My work integrates stretchable materials, electrochemical sensing, wireless elec
             Stretchable and bioadhesive platforms for multimodal physiological monitoring and therapeutic stimulation.
           </p>
 
-          <a href="/implantable-bioelectronics/" class="research-card-more">
+          <span class="research-card-more">
             Explore this research →
-          </a>
+          </span>
 
         </div>
-      </div>
+      </a>
 
       <!-- Card 2 -->
-      <div style="
+      <a href="/human-machine-interface/" class="research-card" style="
         background:white;
         border-radius:6px;
         overflow:hidden;
@@ -160,14 +158,12 @@ My work integrates stretchable materials, electrochemical sensing, wireless elec
         flex-direction:column;
       ">
 
-        <a href="/human-machine-interface/" style="display:block;">
-          <img src="/assets/img/HMI_cover_card.jpg?v=2" style="
-            width:100%;
-            height:260px;
-            object-fit:cover;
-            display:block;
-          ">
-        </a>
+        <img src="/assets/img/HMI_cover_card.jpg?v=2" style="
+          width:100%;
+          height:260px;
+          object-fit:cover;
+          display:block;
+        ">
 
         <div style="padding:30px; flex:1; display:flex; flex-direction:column;">
 
@@ -177,9 +173,9 @@ My work integrates stretchable materials, electrochemical sensing, wireless elec
             line-height:1.15;
             margin-bottom:18px;
           ">
-            <a href="/human-machine-interface/" class="research-card-title">
+            <span class="research-card-title">
               Wearable Intelligence
-            </a>
+            </span>
           </h2>
 
           <p style="
@@ -192,15 +188,15 @@ My work integrates stretchable materials, electrochemical sensing, wireless elec
             Soft electrochemical interfaces for continuous and noninvasive health monitoring.
           </p>
 
-          <a href="/human-machine-interface/" class="research-card-more">
+          <span class="research-card-more">
             Explore this research →
-          </a>
+          </span>
 
         </div>
-      </div>
+      </a>
 
       <!-- Card 3 -->
-      <div style="
+      <a href="/in-vivo-printing/" class="research-card" style="
         background:white;
         border-radius:6px;
         overflow:hidden;
@@ -209,18 +205,16 @@ My work integrates stretchable materials, electrochemical sensing, wireless elec
         flex-direction:column;
       ">
 
-        <a href="/in-vivo-printing/" style="display:block;">
-          <img src="/assets/img/in_vivo_printing.png?v=2" style="
-            width:100%;
-            height:260px;
-            object-fit:contain;
-            object-position:center;
-            box-sizing:border-box;
-            padding:10px 14px;
-            background:#fff;
-            display:block;
-          ">
-        </a>
+        <img src="/assets/img/in_vivo_printing.png?v=2" style="
+          width:100%;
+          height:260px;
+          object-fit:contain;
+          object-position:center;
+          box-sizing:border-box;
+          padding:10px 14px;
+          background:#fff;
+          display:block;
+        ">
 
         <div style="padding:30px; flex:1; display:flex; flex-direction:column;">
 
@@ -230,9 +224,9 @@ My work integrates stretchable materials, electrochemical sensing, wireless elec
             line-height:1.15;
             margin-bottom:18px;
           ">
-            <a href="/in-vivo-printing/" class="research-card-title">
+            <span class="research-card-title">
               In vivo Printing
-            </a>
+            </span>
           </h2>
 
           <p style="
@@ -245,12 +239,12 @@ My work integrates stretchable materials, electrochemical sensing, wireless elec
             Ultrasound-assisted strategies for minimally invasive biofabrication and biomedical interfaces.
           </p>
 
-          <a href="/in-vivo-printing/" class="research-card-more">
+          <span class="research-card-more">
             Explore this research →
-          </a>
+          </span>
 
         </div>
-      </div>
+      </a>
 
     </div>
 
@@ -259,6 +253,27 @@ My work integrates stretchable materials, electrochemical sensing, wireless elec
 </section>
 
 <style>
+  .research-card {
+    position: relative;
+    color: inherit !important;
+    text-decoration: none !important;
+    transition: transform 0.22s ease, box-shadow 0.22s ease;
+    transform-origin: center;
+  }
+
+  .research-card:focus-visible {
+    outline: 3px solid rgba(255, 111, 0, 0.5);
+    outline-offset: 3px;
+  }
+
+  @media (hover: hover) and (pointer: fine) {
+    .research-card:hover {
+      z-index: 1;
+      transform: translateY(-3px) scale(1.015);
+      box-shadow: 0 8px 26px rgba(0, 0, 0, 0.16) !important;
+    }
+  }
+
   .research-card-title {
     color: inherit;
     text-decoration: none;
@@ -284,5 +299,15 @@ My work integrates stretchable materials, electrochemical sensing, wireless elec
   .research-card-more:hover {
     color: #ff6f00;
     text-decoration: none;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .research-card {
+      transition: none;
+    }
+
+    .research-card:hover {
+      transform: none;
+    }
   }
 </style>
