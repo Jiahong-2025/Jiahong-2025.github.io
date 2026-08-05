@@ -33,23 +33,6 @@ body.sticky-bottom-footer {
   max-width: v.$max-content-width;
 }
 
-.post-title {
-  .home-cv-link {
-    margin-left: 0.1rem;
-    color: var(--global-text-color-light);
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: 1rem;
-    font-weight: 700;
-    text-decoration: underline;
-    vertical-align: baseline;
-
-    &:hover {
-      color: var(--global-theme-color);
-      text-decoration: underline;
-    }
-  }
-}
-
 // Profile
 .profile {
   img {
