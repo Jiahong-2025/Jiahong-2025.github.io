@@ -101,7 +101,7 @@ My work integrates stretchable materials, electrochemical sensing, wireless elec
     ">
 
       <!-- Card 1 -->
-      <a href="/implantable-bioelectronics/" class="research-card" style="
+      <a href="/projects/#implantable-bioelectronics" class="research-card" style="
         background:white;
         border-radius:6px;
         overflow:hidden;
@@ -149,54 +149,7 @@ My work integrates stretchable materials, electrochemical sensing, wireless elec
       </a>
 
       <!-- Card 2 -->
-      <a href="/human-machine-interface/" class="research-card" style="
-        background:white;
-        border-radius:6px;
-        overflow:hidden;
-        box-shadow:0 4px 18px rgba(0,0,0,0.12);
-        display:flex;
-        flex-direction:column;
-      ">
-
-        <img src="/assets/img/HMI_cover_card.jpg?v=2" style="
-          width:100%;
-          height:260px;
-          object-fit:cover;
-          display:block;
-        ">
-
-        <div style="padding:30px; flex:1; display:flex; flex-direction:column;">
-
-          <h2 style="
-            font-size:2.1rem;
-            font-weight:700;
-            line-height:1.15;
-            margin-bottom:18px;
-          ">
-            <span class="research-card-title">
-              Wearable Intelligence
-            </span>
-          </h2>
-
-          <p style="
-            font-size:1rem;
-            color:#666;
-            line-height:1.7;
-            text-align:justify;
-            hyphens:auto;
-          ">
-            Soft electrochemical interfaces for continuous and noninvasive health monitoring.
-          </p>
-
-          <span class="research-card-more">
-            Explore this research →
-          </span>
-
-        </div>
-      </a>
-
-      <!-- Card 3 -->
-      <a href="/in-vivo-printing/" class="research-card" style="
+      <a href="/projects/#in-vivo-printing" class="research-card" style="
         background:white;
         border-radius:6px;
         overflow:hidden;
@@ -237,6 +190,53 @@ My work integrates stretchable materials, electrochemical sensing, wireless elec
             hyphens:auto;
           ">
             Ultrasound-assisted strategies for minimally invasive biofabrication and biomedical interfaces.
+          </p>
+
+          <span class="research-card-more">
+            Explore this research →
+          </span>
+
+        </div>
+      </a>
+
+      <!-- Card 3 -->
+      <a href="/projects/#wearable-intelligence" class="research-card" style="
+        background:white;
+        border-radius:6px;
+        overflow:hidden;
+        box-shadow:0 4px 18px rgba(0,0,0,0.12);
+        display:flex;
+        flex-direction:column;
+      ">
+
+        <img src="/assets/img/HMI_cover_card.jpg?v=2" style="
+          width:100%;
+          height:260px;
+          object-fit:cover;
+          display:block;
+        ">
+
+        <div style="padding:30px; flex:1; display:flex; flex-direction:column;">
+
+          <h2 style="
+            font-size:2.1rem;
+            font-weight:700;
+            line-height:1.15;
+            margin-bottom:18px;
+          ">
+            <span class="research-card-title">
+              Wearable Intelligence
+            </span>
+          </h2>
+
+          <p style="
+            font-size:1rem;
+            color:#666;
+            line-height:1.7;
+            text-align:justify;
+            hyphens:auto;
+          ">
+            Soft electrochemical interfaces for continuous and noninvasive health monitoring.
           </p>
 
           <span class="research-card-more">
