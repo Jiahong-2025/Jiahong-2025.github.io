@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-research",
           title: "Research",
-          description: "A growing collection of your cool projects.",
+          description: "Soft bioelectronics for sensing, stimulation, and biofabrication.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
