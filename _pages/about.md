@@ -34,12 +34,8 @@ latest_posts:
 Soft Bioelectronics for Sensing and Stimulation
 </h2>
 
-<p style="font-size:1.08rem; line-height:1.9; color:#333333; margin-bottom:22px; text-align:justify; hyphens:auto;">
-I am a Ph.D. candidate in Medical Engineering at the California Institute of Technology, advised by Prof. Wei Gao. My research focuses on soft bioelectronics, wearable and implantable biosensors, and multimodal interfaces for physiological monitoring and therapeutic stimulation.
-</p>
-
-<p style="font-size:1.08rem; line-height:1.9; color:#333333; text-align:justify; hyphens:auto;">
-My work integrates stretchable materials, electrochemical sensing, wireless electronics, and bioadhesive interfaces to develop next-generation biomedical devices for both wearable and implantable applications.
+<p class="about-bio" style="font-size:1.08rem; line-height:1.9; color:#333333; margin-bottom:22px; text-align:justify; hyphens:auto;">
+Dr. Jiahong Li is a postdoctoral scholar in Medical Engineering at the California Institute of Technology, working with Prof. Wei Gao. He received his Ph.D. degree in Medical and Electrical Engineering from Caltech. Previously, he earned his M.S. degree in Materials Science and Engineering from Northwestern University and his B.S. degree in Chemistry from Wuhan University. His research focuses on developing functional soft materials and bioelectronic systems for continuous physicochemical sensing, minimally invasive biofabrication, and adaptive therapy. By integrating materials design, electrochemical sensing, wireless electronics, and bioadhesive interfaces, he aims to create intelligent biomedical platforms that seamlessly interface with the human body for personalized health monitoring and treatment.
 </p>
 
 <div style="clear: both;"></div>
@@ -94,7 +90,7 @@ My work integrates stretchable materials, electrochemical sensing, wireless elec
       </span>
     </div>
 
-    <div style="
+    <div class="research-card-grid" style="
       display:grid;
       grid-template-columns:repeat(auto-fit, minmax(320px, 1fr));
       gap:35px;
@@ -246,6 +242,44 @@ My work integrates stretchable materials, electrochemical sensing, wireless elec
         </div>
       </a>
 
+      <!-- Card 4 -->
+      <a href="/projects/#programmable-metamaterials" class="research-card" style="
+        background:white;
+        border-radius:6px;
+        overflow:hidden;
+        box-shadow:0 4px 18px rgba(0,0,0,0.12);
+        display:flex;
+        flex-direction:column;
+      ">
+
+        <img src="/assets/img/programmable_metamaterials_card.jpg" alt="Kirigami-inspired programmable mechanical metamaterials" style="
+          width:100%;
+          height:260px;
+          object-fit:cover;
+          object-position:center;
+          display:block;
+        ">
+
+        <div style="padding:30px; flex:1; display:flex; flex-direction:column;">
+
+          <h2 style="
+            font-size:2.1rem;
+            font-weight:700;
+            line-height:1.15;
+            margin-bottom:18px;
+          ">
+            <span class="research-card-title">
+              Programmable Metamaterials
+            </span>
+          </h2>
+
+          <span class="research-card-more">
+            Explore this research →
+          </span>
+
+        </div>
+      </a>
+
     </div>
 
   </div>
@@ -253,6 +287,13 @@ My work integrates stretchable materials, electrochemical sensing, wireless elec
 </section>
 
 <style>
+  @media (max-width: 760px) {
+    .about-bio {
+      text-align: left !important;
+      hyphens: none !important;
+    }
+  }
+
   .research-card {
     position: relative;
     color: inherit !important;
@@ -308,6 +349,12 @@ My work integrates stretchable materials, electrochemical sensing, wireless elec
 
     .research-card:hover {
       transform: none;
+    }
+  }
+
+  @media (max-width: 760px) {
+    .research-card-grid {
+      grid-template-columns: 1fr !important;
     }
   }
 </style>
